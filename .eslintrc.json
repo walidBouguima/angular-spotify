@@ -40,7 +40,7 @@
               },
               {
                 "sourceTag": "type:ui",
-                "onlyDependOnLibsWithTags": ["type:util", "type:ui"]
+                "onlyDependOnLibsWithTags": ["type:util", "type:ui", "scope:web"] // The boundary extension was principally made to ensure the successfull test runs. However the direct import of dependencies from the scope:web can be avoided by declaring test mocks and close the boundary again. 
               },
               {
                 "sourceTag": "type:data-access",

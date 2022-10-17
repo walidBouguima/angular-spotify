@@ -1,0 +1,5 @@
+{
+    "include": ["apps/angular-spotify/src/**/*.ts", "libs/web/**/*.ts"], 
+    //"exclude": ["apps/angular-spotify/src/test.ts", "apps/angular-spotify/src/**/*.spec.ts", "apps/angular-spotify/src/app/file-to-exclude.ts"]
+
+}

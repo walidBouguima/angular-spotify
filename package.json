@@ -33,7 +33,8 @@
     "dep-graph": "nx dep-graph",
     "help": "nx help",
     "lint-staged": "lint-staged",
-    "generate-icons": "svg-generator"
+    "generate-icons": "svg-generator", 
+    "compdoc": "npx compodoc -p tsconfig.doc.json"
   },
   "private": true,
   "dependencies": {
